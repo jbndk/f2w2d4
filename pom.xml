@@ -18,7 +18,7 @@
         <!-- IMPORTANT-2: Observe we are NOT using /manager/html but /manager/text for script uploads --> 
         <remote.server>https://denkoldehane.dk/manager/text</remote.server>
         
-    </properties>
+     </properties>
     
     <dependencies>
         <dependency>
@@ -93,12 +93,6 @@
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-library</artifactId>
             <version>1.3</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.8.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
